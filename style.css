@@ -1,6 +1,43 @@
+.clear{
+  clear: both;
+}
+.main-container{
+  width: 1280px;
+  margin: 0 auto;
+}
 .header{
   height: 95px;
   background-color: #473A2D;
+}
+.header .logo{
+  height: 100%;
+  width: 200px;
+  background-color: orange;
+  margin-left: 50px;
+  float: left;
+}
+.header .logo .logo-image{
+  margin-top: 30px;
+}
+.header .navigation-container{
+  width: 500px;
+  background-color: yellow;
+  margin-right: 30px;
+  float: right;
+  padding: 19px 0;
+}
+.header .navigation-container .menu{
+  height: 56px;
+  width: 399px;
+  background-color: green;
+  float: left;
+  border-right: 1px solid white;
+}
+.header .navigation-container .languages{
+  height: 56px;
+  width: 100px;
+  background-color: gray;
+  float: right;
 }
 .slider{
   height: 595px;
