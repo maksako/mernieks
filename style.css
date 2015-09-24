@@ -1,1 +1,28 @@
-body {color:red}
+.header{
+  height: 95px;
+  background-color: #473A2D;
+}
+.slider{
+  height: 595px;
+  background-color: red;
+}
+.services{
+  height: 400px;
+  background-color: orange
+}
+.prices{
+  height: 400px;
+  background-color: yellow;
+}
+.about-us{
+  height: 400px;
+  background-color: blue;
+}
+.clients{
+  height: 400px;
+  background-color: brown;
+}
+.contacts{
+  height: 400px;
+  background-color: red;;
+}
