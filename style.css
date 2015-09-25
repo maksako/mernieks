@@ -1,3 +1,6 @@
+.body{
+  font-family: "open sans";
+}
 .clear{
   clear: both;
 }
@@ -20,7 +23,7 @@
   margin-top: 30px;
 }
 .header .navigation-container{
-  width: 500px;
+  width: 600px;
   background-color: yellow;
   margin-right: 30px;
   float: right;
@@ -28,10 +31,26 @@
 }
 .header .navigation-container .menu{
   height: 56px;
-  width: 399px;
+  width: 499px;
   background-color: green;
   float: left;
   border-right: 1px solid white;
+}
+.header .navigation-container .menu ul{
+  list-style-type: none;
+}
+.header .navigation-container .menu ul li{
+  float: left;
+  margin-top: -8px;
+}
+.header .navigation-container .menu ul li a{
+display: block;
+padding: 10px;
+color: black;
+text-decoration: none;
+}
+.header .navigation-container .menu ul li a:hover{
+background-color: red;
 }
 .header .navigation-container .languages{
   height: 56px;
@@ -40,11 +59,54 @@
   float: right;
 }
 .slider{
-  height: 595px;
+  height: 543px;
   background-color: red;
 }
+.white-special-background{
+  background-color: grey;
+  padding: 10px 50px;
+}
+.sub-container-header-block{
+  border-bottom: 1px dotted black;
+  height: 60px;
+  margin-bottom: 40px;
+}
+.sub-container-header-block h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+.service-block{
+  width: 372px;
+  float: left;
+  background-color: green;
+}
+.service-block > div{
+  float: left;
+  height: inherit;
+  background-color: yellow;
+}
+.service-block-icon-block{
+  width: 50px;
+}
+.service-block-content-block{
+  width: 312px;
+  margin-left: 10px;
+}
+.service-content-devider{
+  border-bottom: 1px; solid black;
+  width: 50px;
+}
+.service-block-content-block h2{
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+  margin-top: 0;
+}
+.center-service-block{
+  margin: 0 32px;
+}
 .services{
-  height: 400px;
+  height: 700px;
   background-color: orange
 }
 .prices{
