@@ -1,7 +1,12 @@
 .body{
   font-family: "open sans";
 }
-.clear{
+.clear:before,
+.clear:after {
+  content: "";
+  display: table;
+}
+.clear:after{
   clear: both;
 }
 .main-container{
@@ -110,8 +115,40 @@ background-color: red;
   background-color: orange
 }
 .prices{
+  background-color: orange;
+}
+.float-left{
+  float: left;
+}
+.prices .float-left{
+  width: 400px;
   height: 400px;
   background-color: yellow;
+}
+.prices-block1{
+  margin-right: 20px;
+}
+.prices-block2{
+  margin-left: 20px;
+}
+.prices table{
+  border-collapse: collapse;
+  min-width: 100%;
+}
+.prices table th{
+  border-bottom: 1px solid black;
+}
+.prices table tr.grey-bg{
+  background-color: grey;
+}
+.table-row-title, .table-row-first{
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.prices table td.price{
+  text-align: center;
 }
 .about-us{
   height: 400px;
