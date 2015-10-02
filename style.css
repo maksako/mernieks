@@ -1,5 +1,5 @@
 .body{
-  font-family: "open sans";
+  font-family: "Open Sans";
 }
 .clear:before,
 .clear:after {
@@ -72,13 +72,16 @@ background-color: red;
   padding: 10px 50px;
 }
 .sub-container-header-block{
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dashed #C7A457;
   height: 60px;
   margin-bottom: 40px;
+  margin:0 54px;
 }
 .sub-container-header-block h1{
   text-align: center;
   text-transform: uppercase;
+  color: #C7A457;
+  font-weight: lighter;
 }
 .service-block{
   width: 372px;
@@ -151,12 +154,63 @@ background-color: red;
   text-align: center;
 }
 .about-us{
+  background-image: url(img/brown_bg.png);
+  background-repeat: repeat;
+}
+.about-us-person1, .about-us-person2{
+  width: 500px;
+  height: 700px;
+  background-color: yellow;
+}
+.about-us-person1{
+  margin-right: 40px;
+}
+.about-us .personal-info-container{
+  width: 300px;
   height: 400px;
-  background-color: blue;
+  margin: 0 auto;
+  background-color: brown;
+  text-align: center;
+}
+.about-us .personal-info-container img{
+  border: 5px solid #C7A457;
+  border-radius: 50%;
+}
+.about-us .personal-info-container h1{
+  font-size: 50px;
+  font-weight: lighter;
+  color: #C7A457;
+  line-height: 10px;
+}
+.about-us .tel, .about-us .email{
+  color: #C7A457;
+}
+.personal-info-devider{
+  border-bottom: 1px solid #C7A457;
+  margin-bottom: 10px;
+}
+.certificates-container{
+  background-color: black;
+}
+.one-certificate{
+  background-color: brown;
+  width: 210px;
+  height: 60px;
+  
+}
+
+.about-us-person2{
+  margin-left: 40px;
+}
+.about-us-text-block p{
+color: white;
+}
+.about-us-sub-container{
+  margin: 0 50px;
 }
 .clients{
   height: 400px;
-  background-color: brown;
+  background-image: brown;
 }
 .contacts{
   height: 400px;
