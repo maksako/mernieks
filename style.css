@@ -67,9 +67,15 @@ background-color: red;
   height: 543px;
   background-color: red;
 }
+.slider-image{
+  width: 100%;
+}
 .white-special-background{
   background-color: grey;
   padding: 10px 50px;
+}
+.brown-special-background{
+  background-image: url("img/brown_bg.png");
 }
 .sub-container-header-block{
   border-bottom: 1px dashed #C7A457;
@@ -196,7 +202,7 @@ background-color: red;
   background-color: brown;
   width: 210px;
   height: 60px;
-  
+
 }
 
 .about-us-person2{
@@ -213,6 +219,53 @@ color: white;
   background-image: brown;
 }
 .contacts{
-  height: 400px;
-  background-color: red;;
+  background-color: #C7A457;
+}
+.contacts-map{
+  height: 180px;
+  width: 200px;
+  margin: 0 auto;
+  border: 5px solid #C7A457;
+}
+.google-map{
+  height: 100%;
+  width: 100%;
+}
+.contacts-map-container{
+  width: 400px;
+  height: 200px;
+  background-color: red;
+}
+.contacts-info-container{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+.contacts-form-container{
+  width: 400px;
+  height: 200px;
+  background-color: green;
+}
+.contacts-form-container form input, form .text-field{
+  background-color: #C7A457;
+  border: none;
+}
+::-webkit-input-placeholder{
+  color: black;
+}
+.firstname-field, .email-field{
+  width: 170px;
+  height: 40px;
+  padding-left: 10px;
+}
+.firstname-field{
+  margin-right: 36px;
+}
+.text-field{
+  margin-top: 30px;
+  height: 100px;
+  width: 100%;
+  padding-left: 10px;
+  resize: none;
+  box-sizing: border-box;
 }
