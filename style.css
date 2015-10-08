@@ -70,6 +70,28 @@ background-color: red;
 .slider-image{
   width: 100%;
 }
+.slider{
+  position: relative;
+}
+.slider-link-container{
+  position: absolute;
+  bottom: 0;
+  left: 600px;
+  margin-bottom: 20px;
+}
+span.slider-link{
+  border: 6px solid green;
+  border-radius: 50%;
+  background-color: green;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+span.slider-link:hover{
+  background-color: grey;
+  cursor: pointer;
+}
 .white-special-background{
   background-color: grey;
   padding: 10px 50px;
