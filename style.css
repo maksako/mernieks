@@ -111,8 +111,8 @@ span.slider-link{
   border-radius: 50%;
   background-color: green;
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   margin-right: 10px;
 }
 span.slider-link:hover{
@@ -167,7 +167,7 @@ span.slider-link:hover{
   margin-left: 10px;
 }
 .service-content-devider{
-  border-bottom: 1px; solid black;
+  border-bottom: 1px solid black;
   width: 50px;
 }
 .service-block-content-block h2{
