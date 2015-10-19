@@ -232,7 +232,7 @@ span.slider-link:hover{
   margin-right: 40px;
 }
 .about-us .personal-info-container{
-  width: 300px;
+  width: 400px;
   height: 400px;
   margin: 0 auto;
   background-color: brown;
@@ -264,17 +264,34 @@ span.slider-link:hover{
   height: 60px;
 }
 .about-us-person2{
-  margin-left: 40px;
+  margin-left: 60px;
 }
 .about-us-text-block p{
 color: white;
 }
 .about-us-sub-container{
-  margin: 0 50px;
+  margin: 60px;
 }
 .clients{
   height: 400px;
   background-image: brown;
+}
+.first-line{
+  background-color: yellow;
+  height: 80px;
+  padding-left: 40px;
+}
+.lrzm{
+  background-image: url(img/LRZM_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 200px;
+}
+.lrzm:hover{
+  background-image: url(img/LRZM_colour.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  padding-left: 40px;
 }
 .contacts{
   background-color: #C7A457;
