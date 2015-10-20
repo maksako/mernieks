@@ -273,25 +273,234 @@ color: white;
   margin: 60px;
 }
 .clients{
-  height: 400px;
-  background-image: brown;
+  height: 800px;
+  /*background-color: brown;*/
+}
+.logo-container{
+  /*background-color: orange;*/
+  /*margin: 0 10px;*/
+  text-align: center;
 }
 .first-line{
-  background-color: yellow;
-  height: 80px;
-  padding-left: 40px;
+  /*background-color: yellow;*/
+  height: 100px;
+  padding-left: 50px;
+  padding-top: 25px;
 }
+
 .lrzm{
   background-image: url(img/LRZM_black.png);
   background-repeat: no-repeat;
   height: 80px;
-  width: 200px;
+  width: 250px;
+  margin-top: 10px;
 }
 .lrzm:hover{
   background-image: url(img/LRZM_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  padding-left: 40px;
+  /*padding-left: 40px;*/
+}
+.lvm{
+  background-image: url(img/LVM_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 200px;
+  margin-left: 20px;
+}
+.lvm:hover{
+  background-image: url(img/LVM_black.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
+}
+.gibson{
+  background-image: url(img/Gibson_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.gibson:hover{
+  background-image: url(img/Gibson_colour.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
+}
+.busbuilder{
+  background-image: url(img/busbuilder_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 200px;
+  margin-left: 60px;
+}
+.busbuilder:hover{
+  background-image: url(img/busbuilder_colour.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
+}
+.bsforestry{
+  background-image: url(img/bsforestry_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.bsforestry:hover{
+  background-image: url(img/BSForestry_colour.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
+}
+.second-line{
+  /*background-color: orange;*/
+  height: 100px;
+  padding-left: 50px;
+  padding-top: 25px;
+}
+.statoil{
+  background-image: url(img/statoil_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 300px;
+  margin-top: 10px;
+}
+.statoil:hover{
+  background-image: url(img/statoil_colour.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
+}
+.casamona{
+  background-image: url(img/casamona_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 200px;
+  margin-left: 40px;
+}
+.casamona:hover{
+  background-image: url(img/casamona_black.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
+}
+.blueroots{
+  background-image: url(img/blueroots_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.blueroots:hover{
+  background-image: url(img/blueroots_colour.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
+}
+.lvc{
+  background-image: url(img/lvc_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 200px;
+  margin-left: 50px;
+}
+.lvc:hover{
+  background-image: url(img/lvc_colour.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
+}
+.latvenergo{
+  background-image: url(img/latvenergo_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.latvenergo:hover{
+  background-image: url(img/latvenergo_colour.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
+}
+.third-line{
+  background-color: orange;
+  height: 130px;
+  padding-left: 50px;
+  padding-top: 25px;
+}
+.filterline{
+  background-image: url(img/filterline_black.png);
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+}
+.filterline:hover{
+  background-image: url(img/filterline_colour.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
+}
+.lmt{
+  background-image: url(img/lmt_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 160px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.lmt:hover{
+  background-image: url(img/lmt_black.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
+}
+.vbo{
+  background-image: url(img/ventspilsbrivosta_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.vbo:hover{
+  background-image: url(img/ventspilsbrivosta_colour.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
+}
+.lvc{
+  background-image: url(img/lvc_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 200px;
+  margin-left: 50px;
+}
+.lvc:hover{
+  background-image: url(img/lvc_colour.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
+}
+.latvenergo{
+  background-image: url(img/latvenergo_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.latvenergo:hover{
+  background-image: url(img/latvenergo_colour.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
 }
 .contacts{
   background-color: #C7A457;
