@@ -21,7 +21,7 @@
   height: 100%;
   width: 200px;
   background-color: orange;
-  margin-left: 50px;
+  margin-left: 90px;
   float: left;
 }
 .header .logo .logo-image{
@@ -49,13 +49,13 @@
   margin-top: -8px;
 }
 .header .navigation-container .menu ul li a{
-display: block;
-padding: 10px;
-color: black;
-text-decoration: none;
+ display: block;
+ padding: 10px;
+ color: black;
+ text-decoration: none;
 }
 .header .navigation-container .menu ul li a:hover{
-background-color: red;
+ background-color: red;
 }
 .header .navigation-container .languages{
   height: 56px;
@@ -94,10 +94,10 @@ background-color: red;
 .slider{
   position: relative;
 }
-.slider-link-container{
+.slider-inner-container{
   position: absolute;
-  top: 200px;
-  left: 200px;
+  top: 230px;
+  left: 166px;
   margin-bottom: 20px;
 }
 .slider-spans-container{
@@ -121,14 +121,28 @@ span.slider-link:hover{
 }
 .banner-1{
   background-color: orange;
-  width: 300px;
-  height: 80px;
+  width: 270px;
+  height: 76px;
   margin-bottom: 20px;
+  text-align: center;
+  font-size: 48px;
 }
-.banner-2{
+
+.banner-2 p{
+  margin-top: 0px;
+}
+
+.banner-1 p{
+  line-height: 76px;
+}
+.banner-2 {
   background-color: yellow;
-  width: 550px;
-  height: 100px;
+  width: 340px;
+  height: 70px;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 12px;
+  font-size: 20px;
 }
 .white-special-background{
   background-color: grey;
