@@ -20,7 +20,6 @@
 .header .logo{
   height: 100%;
   width: 200px;
-  background-color: orange;
   margin-left: 90px;
   float: left;
 }
@@ -29,7 +28,6 @@
 }
 .header .navigation-container{
   width: 600px;
-  background-color: yellow;
   margin-right: 30px;
   float: right;
   padding: 19px 0;
@@ -37,7 +35,6 @@
 .header .navigation-container .menu{
   height: 56px;
   width: 499px;
-  background-color: green;
   float: left;
   border-right: 1px solid white;
 }
@@ -51,16 +48,16 @@
 .header .navigation-container .menu ul li a{
  display: block;
  padding: 10px;
- color: black;
+ color: white;
  text-decoration: none;
 }
 .header .navigation-container .menu ul li a:hover{
- background-color: red;
+ background-color: #5b4d3b;
 }
 .header .navigation-container .languages{
   height: 56px;
   width: 100px;
-  background-color: gray;
+  /*background-color: gray;*/
   float: right;
 }
 .header .navigation-container .languages ul{
@@ -75,18 +72,33 @@
 }
 .header .navigation-container .languages ul li a{
   display: block;
-  color: black;
+  color: white;
   text-decoration: none;
-  margin-top: 10px;
   text-align: center;
-  padding-left: 5px;
+  padding: 10px;
+}
+.ru-left{
+  margin-left: -8px;
 }
 .header .navigation-container .languages ul li a:hover{
-  background-color: red;
+  background-color: #5b4d3b;
 }
 .slider{
   height: 543px;
   background-color: red;
+  position: relative;
+}
+.left-row{
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 300px;
+  opacity: 0.2;
+}
+.right-row{
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: 300px;
+  opacity: 0.2;
 }
 .slider-image{
   width: 100%;
@@ -107,20 +119,21 @@
   margin-bottom: 20px;
 }
 span.slider-link{
-  border: 6px solid green;
+  border: 3px solid #bca177;
   border-radius: 50%;
-  background-color: green;
+  background-color: #bca177;
   display: block;
   width: 10px;
   height: 10px;
   margin-right: 10px;
 }
 span.slider-link:hover{
-  background-color: grey;
+  background-color: #d9cabf;
   cursor: pointer;
 }
 .banner-1{
-  background-color: orange;
+  background-color: rgba(59, 55, 59, 0.9);
+  opacity: 0.8;
   width: 270px;
   height: 76px;
   margin-bottom: 20px;
@@ -130,22 +143,27 @@ span.slider-link:hover{
 
 .banner-2 p{
   margin-top: 0px;
+  color: white;
+  font-size: 24px;
 }
 
 .banner-1 p{
-  line-height: 76px;
+  line-height: 70px;
+  font-size: 45px;
+  color: white;
 }
 .banner-2 {
-  background-color: yellow;
-  width: 340px;
-  height: 70px;
+  background-color: rgba(59, 55, 59, 0.8);
+  width: 390px;
+  height: 80px;
   text-align: left;
   padding-left: 20px;
   padding-top: 12px;
   font-size: 20px;
 }
 .white-special-background{
-  background-color: grey;
+  background-image: url("img/white-background.png");
+  background-repeat: repeat;
   padding: 10px 50px;
 }
 .brown-special-background{
@@ -166,18 +184,18 @@ span.slider-link:hover{
 .service-block{
   width: 372px;
   float: left;
-  background-color: green;
+  /*background-color: green;*/
 }
 .service-block > div{
   float: left;
   height: inherit;
-  background-color: yellow;
+  /*background-color: yellow;*/
 }
-.service-block-icon-block{
+/*.service-block-icon-block{
   width: 50px;
-}
+}*/
 .service-block-content-block{
-  width: 312px;
+  width: 298px;
   margin-left: 10px;
 }
 .service-content-devider{
@@ -186,7 +204,7 @@ span.slider-link:hover{
 }
 .service-block-content-block h2{
   text-transform: uppercase;
-  color: white;
+  color: #473a15;
   font-size: 18px;
   margin-top: 0;
 }
@@ -194,19 +212,22 @@ span.slider-link:hover{
   margin: 0 32px;
 }
 .services{
-  height: 700px;
-  background-color: orange
+  height: 600px;
+  /*background-color: orange*/
 }
 .prices{
-  background-color: orange;
+  /*background-color: orange;*/
 }
 .float-left{
   float: left;
 }
 .prices .float-left{
-  width: 400px;
-  height: 400px;
-  background-color: yellow;
+  width: 510px;
+  /*background-color: yellow;*/
+  margin-left: 50px;
+}
+table .smaller-text{
+  font-style: oblique;
 }
 .prices-block1{
   margin-right: 20px;
@@ -222,34 +243,49 @@ span.slider-link:hover{
   border-bottom: 1px solid black;
 }
 .prices table tr.grey-bg{
-  background-color: grey;
+  background-color: #f2ebe1;
 }
 .table-row-title, .table-row-first{
   text-align: left;
-  padding-left: 30px;
+  padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 .prices table td.price{
   text-align: center;
 }
+.price-descr{
+  font-style: italic;
+  font-size: 14px;
+  margin-left: 17px;
+}
+.price-header{
+  margin-left: 5px;
+  line-height: 1.8;
+}
 .about-us{
   background-image: url(img/brown_bg.png);
   background-repeat: repeat;
 }
+.about-us-text-block{
+  line-height: 1.8;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 .about-us-person1, .about-us-person2{
   width: 500px;
-  height: 700px;
-  background-color: yellow;
+  /*height: 700px;*/
+  /*background-color: yellow;*/
 }
 .about-us-person1{
-  margin-right: 40px;
+  margin-left: 50px;
 }
 .about-us .personal-info-container{
   width: 400px;
-  height: 400px;
+  height: 300px;
   margin: 0 auto;
-  background-color: brown;
+  /*background-color: brown;*/
   text-align: center;
 }
 .about-us .personal-info-container img{
@@ -270,12 +306,43 @@ span.slider-link:hover{
   margin-bottom: 10px;
 }
 .certificates-container{
-  background-color: black;
+  background-color: #624e36;
+  margin-top: 30px;
+  height: 80px;
+  width: 500px;
 }
+
 .one-certificate{
-  background-color: brown;
-  width: 210px;
+  /*background-color: brown;*/
+  width:210px;
   height: 60px;
+  margin:0 20px;
+}
+.two-certificate{
+  /*background-color: brown;*/
+  width:210px;
+  height: 60px;
+  margin-left: 180px;
+}
+.two-certificate p{
+  font-size: 12px;
+  color: white;
+  text-align: left;
+  padding-top: 10px;
+  margin-left: 50px;
+}
+.two-certificate img{
+  margin-top: 10px;
+}
+.one-certificate p{
+  font-size: 12px;
+  color: white;
+  text-align: left;
+  padding-top: 10px;
+}
+.one-certificate img{
+  margin-right: 20px;
+  margin-top: 20px;
 }
 .about-us-person2{
   margin-left: 60px;
@@ -286,9 +353,31 @@ color: white;
 .about-us-sub-container{
   margin: 60px;
 }
+.personal-info-text-container{
+  width: 510px;
+}
+.personal-info-text-container p{
+  color: white;
+  line-height: 1.8;
+  text-align: left;
+  font-size: 14px;
+  font-weight: lighter;
+}
 .clients{
-  height: 800px;
-  /*background-color: brown;*/
+  height: 500px;
+  position: relative;
+}
+.up-arrow{
+  position: absolute;
+  background-image: url(img/up-arrow.png);
+  width: 59px;
+  height: 58px;
+  margin-top: 350px;
+  margin-left: 1200px;
+}
+.up-arrow:hover{
+  background-image: url(img/up-arrow.png);
+  cursor: pointer;
 }
 .logo-container{
   /*background-color: orange;*/
@@ -443,7 +532,7 @@ color: white;
   /*padding-left: 40px;*/
 }
 .third-line{
-  background-color: orange;
+  /*background-color: orange;*/
   height: 130px;
   padding-left: 50px;
   padding-top: 25px;
@@ -481,7 +570,7 @@ color: white;
   height: 80px;
   width: 150px;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .vbo:hover{
   background-image: url(img/ventspilsbrivosta_colour.png);
@@ -489,81 +578,121 @@ color: white;
   background-repeat: no-repeat;
   /*padding-left: 40px;*/
 }
-.lvc{
-  background-image: url(img/lvc_black.png);
-  background-repeat: no-repeat;
-  height: 80px;
-  width: 200px;
-  margin-left: 50px;
-}
-.lvc:hover{
-  background-image: url(img/lvc_colour.png);
-  cursor: pointer;
-  background-repeat: no-repeat;
-  /*padding-left: 40px;*/
-}
-.latvenergo{
-  background-image: url(img/latvenergo_black.png);
+.ventbunkers{
+  background-image: url(img/ventbunkers_black.png);
   background-repeat: no-repeat;
   height: 80px;
   width: 200px;
   margin-top: 20px;
   margin-left: 20px;
 }
-.latvenergo:hover{
-  background-image: url(img/latvenergo_colour.png);
+.ventbunkers:hover{
+  background-image: url(img/ventbunkers_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
   /*padding-left: 40px;*/
 }
-.contacts{
-  background-color: #C7A457;
-}
-.contacts-map{
-  height: 180px;
+.latio{
+  background-image: url(img/latio_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
   width: 200px;
-  margin: 0 auto;
-  border: 5px solid #C7A457;
+  margin-left: 50px;
+  margin-top: 10px;
 }
-.google-map{
-  height: 100%;
-  width: 100%;
+.latio:hover{
+  background-image: url(img/latio_colour.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
+}
+.vpp{
+  background-image: url(img/vpp_black.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.vpp:hover{
+  background-image: url(img/vpp_black.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  /*padding-left: 40px;*/
 }
 .contacts-map-container{
   width: 400px;
-  height: 200px;
-  background-color: red;
+  margin-left: 55px;
+  margin-top: 50px;
+}
+
+.contacts-map{
+    height: 322px;
+    width: 100%;
+    margin: 0 auto;
+    border: 5px solid #C7A457;
+}
+.google-map{
+  width:100%;
+  height: 100%;
 }
 .contacts-info-container{
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
+  width: 300px;
+  text-align: center;
+  margin: 50px 30px;
 }
-.contacts-form-container{
+
+.contacts-company-name{
+  text-transform: uppercase;
+}
+
+.contacts-info-container .contacts-phones{
+  color: white;
+}
+.contacts{
+  padding-bottom: 50px;
+}
+.contacts-info-container p{
+  color: #C7A457;
+}
+.contact-form-container{
   width: 400px;
-  height: 200px;
-  background-color: green;
+  margin-top: 30px;
 }
-.contacts-form-container form input, form .text-field{
+.contact-form-container form input[type="text"], form .text-field{
+  background-color: #7f6c42;
+  border: none;
+  /*color: black;*/
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.contact-form-buttom{
+  margin-top: 30px;
+  padding: 10px 20px;
   background-color: #C7A457;
   border: none;
+  color: white;
 }
-::-webkit-input-placeholder{
-  color: black;
+.form-title{
+  color: #C7A457;
+  text-transform: uppercase;
 }
+
+::-webkit-input-placeholder {
+  color: #C7A457;
+}
+
 .firstname-field, .email-field{
-  width: 170px;
-  height: 40px;
-  padding-left: 10px;
+  width:170px;
+  height: 30px;
 }
 .firstname-field{
-  margin-right: 36px;
+  margin-right: 33px;
 }
 .text-field{
-  margin-top: 30px;
-  height: 100px;
+  margin-top:30px;
+  height: 155px;
   width: 100%;
-  padding-left: 10px;
   resize: none;
   box-sizing: border-box;
 }
