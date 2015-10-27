@@ -12,6 +12,8 @@
 .main-container{
   width: 1280px;
   margin: 0 auto;
+  background-image: url("img/white-background.png");
+  background-repeat: repeat;
 }
 .header{
   height: 95px;
@@ -92,13 +94,13 @@
   position: absolute;
   margin-left: 50px;
   margin-top: 300px;
-  opacity: 0.2;
+  opacity: 0.8;
 }
 .right-row{
   position: absolute;
   margin-left: 1200px;
   margin-top: 300px;
-  opacity: 0.2;
+  opacity: 0.8;
 }
 .slider-image{
   width: 100%;
@@ -132,8 +134,7 @@ span.slider-link:hover{
   cursor: pointer;
 }
 .banner-1{
-  background-color: rgba(59, 55, 59, 0.9);
-  opacity: 0.8;
+  background-color: rgba(59, 55, 59, 0.7);
   width: 270px;
   height: 76px;
   margin-bottom: 20px;
@@ -153,9 +154,9 @@ span.slider-link:hover{
   color: white;
 }
 .banner-2 {
-  background-color: rgba(59, 55, 59, 0.8);
+  background-color: rgba(59, 55, 59, 0.7);
   width: 390px;
-  height: 80px;
+  height: 82px;
   text-align: left;
   padding-left: 20px;
   padding-top: 12px;
@@ -189,11 +190,10 @@ span.slider-link:hover{
 .service-block > div{
   float: left;
   height: inherit;
+  margin-top: 40px;
   /*background-color: yellow;*/
 }
-/*.service-block-icon-block{
-  width: 50px;
-}*/
+
 .service-block-content-block{
   width: 298px;
   margin-left: 10px;
@@ -212,7 +212,7 @@ span.slider-link:hover{
   margin: 0 32px;
 }
 .services{
-  height: 600px;
+  height: 650px;
   /*background-color: orange*/
 }
 .prices{
@@ -240,7 +240,7 @@ table .smaller-text{
   min-width: 100%;
 }
 .prices table th{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #dfd9cf;
 }
 .prices table tr.grey-bg{
   background-color: #f2ebe1;
@@ -251,6 +251,14 @@ table .smaller-text{
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.table-row-special{
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  border-top: 1px solid #dfd9cf;
+}
 .prices table td.price{
   text-align: center;
 }
@@ -258,6 +266,8 @@ table .smaller-text{
   font-style: italic;
   font-size: 14px;
   margin-left: 17px;
+  border-top: 1px solid #dfd9cf;
+  padding-top: 5px;
 }
 .price-header{
   margin-left: 5px;
@@ -412,7 +422,7 @@ color: white;
   margin-left: 20px;
 }
 .lvm:hover{
-  background-image: url(img/LVM_black.png);
+  background-image: url(img/LVM_color.png);
   cursor: pointer;
   background-repeat: no-repeat;
   /*padding-left: 40px;*/
@@ -485,7 +495,7 @@ color: white;
   margin-left: 40px;
 }
 .casamona:hover{
-  background-image: url(img/casamona_black.png);
+  background-image: url(img/casamona_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
   /*padding-left: 40px;*/
@@ -559,7 +569,7 @@ color: white;
   margin-top: 30px;
 }
 .lmt:hover{
-  background-image: url(img/lmt_black.png);
+  background-image: url(img/lmt_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
   /*padding-left: 40px;*/
@@ -628,16 +638,16 @@ color: white;
 
 .contacts-map{
     height: 322px;
-    width: 100%;
+    /*width: 100%;*/
     margin: 0 auto;
     border: 5px solid #C7A457;
 }
 .google-map{
-  width:100%;
+  width: 100%;
   height: 100%;
 }
 .contacts-info-container{
-  width: 300px;
+  width: 313px;
   text-align: center;
   margin: 50px 30px;
 }
@@ -645,14 +655,13 @@ color: white;
 .contacts-company-name{
   text-transform: uppercase;
 }
-
-.contacts-info-container .contacts-phones{
-  color: white;
+.contacts-phones{
+  color: #eacc8b;
 }
 .contacts{
   padding-bottom: 50px;
 }
-.contacts-info-container p{
+.contacts-info-container {
   color: #C7A457;
 }
 .contact-form-container{
@@ -662,9 +671,13 @@ color: white;
 .contact-form-container form input[type="text"], form .text-field{
   background-color: #7f6c42;
   border: none;
-  /*color: black;*/
   padding-left: 10px;
   padding-top: 5px;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 .contact-form-buttom{
   margin-top: 30px;
@@ -672,6 +685,10 @@ color: white;
   background-color: #C7A457;
   border: none;
   color: white;
+}
+.contact-form-buttom:hover{
+  background-color: #ccb179;
+  cursor: pointer;
 }
 .form-title{
   color: #C7A457;
@@ -683,11 +700,14 @@ color: white;
 }
 
 .firstname-field, .email-field{
-  width:170px;
+  width: 180px;
   height: 30px;
 }
+.email-field{
+  margin-left: 6px;
+}
 .firstname-field{
-  margin-right: 33px;
+  margin-right: 8px;
 }
 .text-field{
   margin-top:30px;
