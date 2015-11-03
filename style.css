@@ -123,8 +123,8 @@ span.slider-link{
   border-radius: 50%;
   background-color: #bca177;
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   margin-right: 10px;
 }
 span.slider-link:hover{
@@ -165,7 +165,7 @@ span.slider-link:hover{
   background-image: url("img/brown_bg.png");
 }
 .sub-container-content-block{
-  width: 100%;
+  width: 102%;
 }
 .sub-container-content-block p{
   font-weight: lighter;
@@ -180,6 +180,9 @@ span.slider-link:hover{
   text-transform: uppercase;
   color: #C7A457;
   font-weight: lighter;
+}
+.services{
+  margin-bottom: 20px;
 }
 .service-block{
   width: 372px;
@@ -205,6 +208,12 @@ span.slider-link:hover{
   margin-top: -5px;;
   font-weight: normal;
 }
+.center-service-block{
+  margin-right: 5px;
+}
+.service-block-icon-block-right{
+  margin-right: -20px;
+}
 .float-left{
   float: left;
 }
@@ -219,7 +228,7 @@ span.slider-link:hover{
   font-size: 16px;
 }
 table .smaller-text{
-  font-style: oblique;
+  font-weight: 300;
 }
 .prices-block1{
   margin-right: 20px;
@@ -308,7 +317,7 @@ table .smaller-text{
   color: #C7A457;
 }
 .personal-info-devider{
-  border-bottom: 1px solid #C7A457;
+  border-bottom: 1px solid #7f684d;
   margin-bottom: 10px;
 }
 .certificates-container{
@@ -390,8 +399,8 @@ color: white;
 .up-arrow{
   position: absolute;
   background-image: url(img/up-arrow.png);
-  width: 59px;
-  height: 58px;
+  width: 57px;
+  height: 57px;
   margin-top: 335px;
   margin-left: 1120px;
 }
@@ -580,7 +589,7 @@ color: white;
   background-repeat: no-repeat;
   height: 80px;
   width: 180px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 50px;
 }
 .ventbunkers:hover{
@@ -594,7 +603,7 @@ color: white;
   height: 80px;
   width: 160px;
   margin-left: 65px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 .latio:hover{
   background-image: url(img/latio_colour.png);
@@ -621,7 +630,7 @@ color: white;
   margin: 30px 80px;
 }
 .contacts-map{
-    height: 312px;
+    height: 305px;
     margin: 0 auto;
     border: 5px solid #C7A457;
 }
@@ -633,6 +642,7 @@ color: white;
   width: 300px;
   text-align: center;
   margin: 50px 10px;
+  font-size: 14px;
 }
 .contacts-company-name{
   text-transform: uppercase;
@@ -662,11 +672,12 @@ iframe {
   border: 0;
 }
 .contact-form-buttom{
-  margin-top: 30px;
+  margin-top: 18px;
   padding: 10px 20px;
   background-color: #C7A457;
   border: none;
   color: white;
+  font-size: 16px;
 }
 .contact-form-buttom:hover{
   background-color: #ccb179;
@@ -682,6 +693,7 @@ iframe {
 .firstname-field, .email-field{
   width: 180px;
   height: 30px;
+  color: #C7A457;
 }
 .email-field{
   margin-left: 6px;
@@ -695,4 +707,5 @@ iframe {
   width: 100%;
   resize: none;
   box-sizing: border-box;
+  color: #C7A457;
 }
