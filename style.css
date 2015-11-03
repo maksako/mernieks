@@ -36,7 +36,7 @@
 }
 .header .navigation-container .menu{
   height: 56px;
-  width: 499px;
+  width: 495px;
   float: left;
   border-right: 1px solid white;
 }
@@ -54,7 +54,7 @@
  text-decoration: none;
 }
 .header .navigation-container .menu ul li a:hover{
- background-color: #5b4d3b;
+  background-color: #5b4d3b;
 }
 .header .navigation-container .languages{
   height: 56px;
@@ -92,15 +92,13 @@
 }
 .left-row{
   position: absolute;
-  margin-left: 50px;
-  margin-top: 300px;
-  opacity: 0.8;
+  margin-left: 90px;
+  margin-top: 240px;
 }
 .right-row{
   position: absolute;
-  margin-left: 1200px;
-  margin-top: 300px;
-  opacity: 0.8;
+  margin-left: 1160px;
+  margin-top: 240px;
 }
 .slider-image{
   width: 100%;
@@ -110,7 +108,7 @@
 }
 .slider-inner-container{
   position: absolute;
-  top: 230px;
+  top: 160px;
   left: 166px;
   margin-bottom: 20px;
 }
@@ -141,13 +139,11 @@ span.slider-link:hover{
   text-align: center;
   font-size: 48px;
 }
-
 .banner-2 p{
   margin-top: 0px;
   color: white;
   font-size: 24px;
 }
-
 .banner-1 p{
   line-height: 70px;
   font-size: 45px;
@@ -163,18 +159,21 @@ span.slider-link:hover{
   font-size: 20px;
 }
 .white-special-background{
-  background-image: url("img/white-background.png");
-  background-repeat: repeat;
-  padding: 10px 50px;
+  padding: 10px 80px;
 }
 .brown-special-background{
   background-image: url("img/brown_bg.png");
 }
+.sub-container-content-block{
+  width: 100%;
+}
+.sub-container-content-block p{
+  font-weight: lighter;
+}
 .sub-container-header-block{
   border-bottom: 1px dashed #C7A457;
   height: 60px;
-  margin-bottom: 40px;
-  margin:0 54px;
+  padding-bottom: 10px;
 }
 .sub-container-header-block h1{
   text-align: center;
@@ -185,46 +184,39 @@ span.slider-link:hover{
 .service-block{
   width: 372px;
   float: left;
-  /*background-color: green;*/
 }
 .service-block > div{
   float: left;
   height: inherit;
   margin-top: 40px;
-  /*background-color: yellow;*/
 }
-
 .service-block-content-block{
   width: 298px;
   margin-left: 10px;
 }
 .service-content-devider{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #dfd9cf;
   width: 50px;
 }
 .service-block-content-block h2{
   text-transform: uppercase;
   color: #473a15;
-  font-size: 18px;
-  margin-top: 0;
-}
-.center-service-block{
-  margin: 0 32px;
-}
-.services{
-  height: 650px;
-  /*background-color: orange*/
-}
-.prices{
-  /*background-color: orange;*/
+  font-size: 24px;
+  margin-top: -5px;;
+  font-weight: normal;
 }
 .float-left{
   float: left;
 }
+.float-right{
+  float: right;
+}
 .prices .float-left{
-  width: 510px;
-  /*background-color: yellow;*/
-  margin-left: 50px;
+  width: 540px;
+  padding-bottom: 40px;
+}
+.uppercaseeur{
+  font-size: 16px;
 }
 table .smaller-text{
   font-style: oblique;
@@ -238,8 +230,12 @@ table .smaller-text{
 .prices table{
   border-collapse: collapse;
   min-width: 100%;
+  font-size: 14px;
 }
 .prices table th{
+  border-bottom: 1px solid #dfd9cf;
+}
+.last-cell{
   border-bottom: 1px solid #dfd9cf;
 }
 .prices table tr.grey-bg{
@@ -261,12 +257,16 @@ table .smaller-text{
 }
 .prices table td.price{
   text-align: center;
+  padding: 10px;
+  font-size: 16px;
+}
+.vert-align{
+  vertical-align: top;
 }
 .price-descr{
   font-style: italic;
   font-size: 14px;
   margin-left: 17px;
-  border-top: 1px solid #dfd9cf;
   padding-top: 5px;
 }
 .price-header{
@@ -276,17 +276,14 @@ table .smaller-text{
 .about-us{
   background-image: url(img/brown_bg.png);
   background-repeat: repeat;
+  height: 950px;
 }
 .about-us-text-block{
   line-height: 1.8;
   text-align: justify;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 .about-us-person1, .about-us-person2{
   width: 500px;
-  /*height: 700px;*/
-  /*background-color: yellow;*/
 }
 .about-us-person1{
   margin-left: 50px;
@@ -295,7 +292,6 @@ table .smaller-text{
   width: 400px;
   height: 300px;
   margin: 0 auto;
-  /*background-color: brown;*/
   text-align: center;
 }
 .about-us .personal-info-container img{
@@ -321,15 +317,37 @@ table .smaller-text{
   height: 80px;
   width: 500px;
 }
-
-.one-certificate{
-  /*background-color: brown;*/
-  width:210px;
+.first-certificate{
+  margin-left: 55px;
+  margin-right: 20px;
+}
+.one-certificate-one{
+  width: 185px;
   height: 60px;
-  margin:0 20px;
+}
+.one-certificate-one p{
+  font-size: 12px;
+  color: white;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.one-certificate-two{
+  width: 200px;
+  height: 60px;
+}
+.one-certificate-two p{
+  font-size: 12px;
+  color: white;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.one-certificate-one img, .one-certificate-two img{
+  margin-right: 20px;
+  margin-top: 20px;
 }
 .two-certificate{
-  /*background-color: brown;*/
   width:210px;
   height: 60px;
   margin-left: 180px;
@@ -344,16 +362,6 @@ table .smaller-text{
 .two-certificate img{
   margin-top: 10px;
 }
-.one-certificate p{
-  font-size: 12px;
-  color: white;
-  text-align: left;
-  padding-top: 10px;
-}
-.one-certificate img{
-  margin-right: 20px;
-  margin-top: 20px;
-}
 .about-us-person2{
   margin-left: 60px;
 }
@@ -361,7 +369,7 @@ table .smaller-text{
 color: white;
 }
 .about-us-sub-container{
-  margin: 60px;
+  margin: 40px 80px;
 }
 .personal-info-text-container{
   width: 510px;
@@ -374,104 +382,94 @@ color: white;
   font-weight: lighter;
 }
 .clients{
-  height: 500px;
   position: relative;
+}
+.clients-main-container{
+  margin: 30px 80px;
 }
 .up-arrow{
   position: absolute;
   background-image: url(img/up-arrow.png);
   width: 59px;
   height: 58px;
-  margin-top: 350px;
-  margin-left: 1200px;
+  margin-top: 335px;
+  margin-left: 1120px;
 }
 .up-arrow:hover{
   background-image: url(img/up-arrow.png);
   cursor: pointer;
 }
 .logo-container{
-  /*background-color: orange;*/
-  /*margin: 0 10px;*/
   text-align: center;
 }
 .first-line{
-  /*background-color: yellow;*/
   height: 100px;
-  padding-left: 50px;
   padding-top: 25px;
 }
-
 .lrzm{
   background-image: url(img/LRZM_black.png);
   background-repeat: no-repeat;
   height: 80px;
-  width: 250px;
+  width: 220px;
   margin-top: 10px;
 }
 .lrzm:hover{
   background-image: url(img/LRZM_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .lvm{
   background-image: url(img/LVM_black.png);
   background-repeat: no-repeat;
   height: 80px;
   width: 200px;
-  margin-left: 20px;
+  margin-left: 70px;
 }
 .lvm:hover{
   background-image: url(img/LVM_color.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .gibson{
   background-image: url(img/Gibson_black.png);
   background-repeat: no-repeat;
   height: 80px;
-  width: 200px;
+  width: 190px;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .gibson:hover{
   background-image: url(img/Gibson_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .busbuilder{
   background-image: url(img/busbuilder_black.png);
   background-repeat: no-repeat;
   height: 80px;
-  width: 200px;
+  width: 167px;
   margin-left: 60px;
 }
 .busbuilder:hover{
   background-image: url(img/busbuilder_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .bsforestry{
   background-image: url(img/bsforestry_black.png);
   background-repeat: no-repeat;
   height: 80px;
-  width: 200px;
+  width: 166px;
   margin-top: 20px;
-  margin-left: 60px;
+  margin-left: -6px;
 }
 .bsforestry:hover{
   background-image: url(img/BSForestry_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .second-line{
-  /*background-color: orange;*/
   height: 100px;
-  padding-left: 50px;
   padding-top: 25px;
 }
 .statoil{
@@ -485,66 +483,58 @@ color: white;
   background-image: url(img/statoil_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .casamona{
   background-image: url(img/casamona_black.png);
   background-repeat: no-repeat;
   height: 80px;
-  width: 200px;
-  margin-left: 40px;
+  width: 160px;
+  margin-left: 60px;
 }
 .casamona:hover{
   background-image: url(img/casamona_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .blueroots{
   background-image: url(img/blueroots_black.png);
   background-repeat: no-repeat;
   height: 80px;
-  width: 200px;
+  width: 175px;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 60px;
 }
 .blueroots:hover{
   background-image: url(img/blueroots_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .lvc{
   background-image: url(img/lvc_black.png);
   background-repeat: no-repeat;
   height: 80px;
-  width: 200px;
-  margin-left: 50px;
+  width: 90px;
+  margin-left: 65px;
 }
 .lvc:hover{
   background-image: url(img/lvc_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .latvenergo{
   background-image: url(img/latvenergo_black.png);
   background-repeat: no-repeat;
   height: 80px;
-  width: 200px;
+  width: 156px;
   margin-top: 20px;
-  margin-left: 20px;
 }
 .latvenergo:hover{
   background-image: url(img/latvenergo_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .third-line{
-  /*background-color: orange;*/
-  height: 130px;
-  padding-left: 50px;
+  height: 110px;
   padding-top: 25px;
 }
 .filterline{
@@ -558,87 +548,80 @@ color: white;
   background-image: url(img/filterline_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .lmt{
   background-image: url(img/lmt_black.png);
   background-repeat: no-repeat;
   height: 80px;
-  width: 160px;
-  margin-left: 40px;
+  width: 130px;
+  margin-left: 50px;
   margin-top: 30px;
 }
 .lmt:hover{
   background-image: url(img/lmt_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .vbo{
   background-image: url(img/ventspilsbrivosta_black.png);
   background-repeat: no-repeat;
   height: 80px;
-  width: 150px;
+  width: 100px;
   margin-top: 10px;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 .vbo:hover{
   background-image: url(img/ventspilsbrivosta_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .ventbunkers{
   background-image: url(img/ventbunkers_black.png);
   background-repeat: no-repeat;
   height: 80px;
-  width: 200px;
+  width: 180px;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 .ventbunkers:hover{
   background-image: url(img/ventbunkers_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .latio{
   background-image: url(img/latio_black.png);
   background-repeat: no-repeat;
   height: 80px;
-  width: 200px;
-  margin-left: 50px;
+  width: 160px;
+  margin-left: 65px;
   margin-top: 10px;
 }
 .latio:hover{
   background-image: url(img/latio_colour.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .vpp{
   background-image: url(img/vpp_black.png);
   background-repeat: no-repeat;
   height: 80px;
-  width: 200px;
+  width: 182px;
   margin-top: 10px;
-  margin-left: 20px;
 }
 .vpp:hover{
   background-image: url(img/vpp_black.png);
   cursor: pointer;
   background-repeat: no-repeat;
-  /*padding-left: 40px;*/
 }
 .contacts-map-container{
   width: 400px;
-  margin-left: 55px;
   margin-top: 50px;
 }
-
+.contacts-main-container{
+  margin: 30px 80px;
+}
 .contacts-map{
-    height: 322px;
-    /*width: 100%;*/
+    height: 312px;
     margin: 0 auto;
     border: 5px solid #C7A457;
 }
@@ -647,11 +630,10 @@ color: white;
   height: 100%;
 }
 .contacts-info-container{
-  width: 313px;
+  width: 300px;
   text-align: center;
-  margin: 50px 30px;
+  margin: 50px 10px;
 }
-
 .contacts-company-name{
   text-transform: uppercase;
 }
@@ -694,11 +676,9 @@ iframe {
   color: #C7A457;
   text-transform: uppercase;
 }
-
 ::-webkit-input-placeholder {
   color: #C7A457;
 }
-
 .firstname-field, .email-field{
   width: 180px;
   height: 30px;
@@ -710,7 +690,7 @@ iframe {
   margin-right: 8px;
 }
 .text-field{
-  margin-top:30px;
+  margin-top: 25px;
   height: 155px;
   width: 100%;
   resize: none;
