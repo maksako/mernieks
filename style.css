@@ -9,6 +9,12 @@
 .clear:after{
   clear: both;
 }
+button{
+  border: none;
+  padding: 0;
+  outline: none;
+  background: none;
+}
 .main-container{
   width: 1280px;
   margin: 0 auto;
@@ -59,30 +65,18 @@
 .header .navigation-container .languages{
   height: 56px;
   width: 100px;
-  /*background-color: gray;*/
   float: right;
+  margin-right: -10px;
 }
-.header .navigation-container .languages ul{
-  list-style-type: none;
-}
-.header .navigation-container .languages ul li{
-  float: left;
-  margin-top: -8px;
-}
-.header .navigation-container .languages .ru{
-  margin-left: -20px;
-}
-.header .navigation-container .languages ul li a{
-  display: block;
+.languages a{
+  display: inline-block;
   color: white;
   text-decoration: none;
   text-align: center;
   padding: 10px;
+  margin-top: 10px;
 }
-.ru-left{
-  margin-left: -8px;
-}
-.header .navigation-container .languages ul li a:hover{
+.header .navigation-container .languages a:hover{
   background-color: #5b4d3b;
 }
 .slider{
@@ -100,6 +94,9 @@
   margin-left: 1160px;
   margin-top: 240px;
 }
+.left-row:hover, .right-row:hover{
+  cursor: pointer;
+}
 .slider-image{
   width: 100%;
 }
@@ -112,22 +109,22 @@
   left: 166px;
   margin-bottom: 20px;
 }
-.slider-spans-container{
+.slider-buttons-container{
   position: absolute;
   bottom: 0;
   left: 600px;
   margin-bottom: 20px;
 }
-span.slider-link{
+button.slider-link{
   border: 3px solid #bca177;
   border-radius: 50%;
   background-color: #bca177;
   display: block;
-  width: 8px;
-  height: 8px;
+  width: 14px;
+  height: 14px;
   margin-right: 10px;
 }
-span.slider-link:hover{
+button.slider-link:hover{
   background-color: #d9cabf;
   cursor: pointer;
 }
@@ -224,7 +221,7 @@ span.slider-link:hover{
   width: 540px;
   padding-bottom: 40px;
 }
-.uppercaseeur{
+.uppercase-eur{
   font-size: 16px;
 }
 table .smaller-text{
@@ -244,7 +241,7 @@ table .smaller-text{
 .prices table th{
   border-bottom: 1px solid #dfd9cf;
 }
-.last-cell{
+table{
   border-bottom: 1px solid #dfd9cf;
 }
 .prices table tr.grey-bg{
@@ -311,14 +308,12 @@ table .smaller-text{
   font-size: 50px;
   font-weight: lighter;
   color: #C7A457;
-  line-height: 10px;
+  border-bottom: 1px solid #7f684d;
+  padding-bottom: 10px;
+  margin: 0 0 10px;
 }
 .about-us .tel, .about-us .email{
   color: #C7A457;
-}
-.personal-info-devider{
-  border-bottom: 1px solid #7f684d;
-  margin-bottom: 10px;
 }
 .certificates-container{
   background-color: #624e36;

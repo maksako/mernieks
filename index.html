@@ -9,35 +9,29 @@
   <div class="main-container">
     <div class="header clear">
       <div class="logo">
-        <img class="logo-image" src="img/logo.png" alt="logo">
+        <a href="#">
+          <img class="logo-image" src="img/logo.png" alt="logo">
+        </a>
       </div>
       <div class="navigation-container">
         <div class="menu">
           <ul>
             <li><a href="#">Sākums</a></li>
-            <li><a href="#">Pakalpojumi</a></li>
-            <li><a href="#">Par mums</a></li>
-            <li><a href="#">Klienti</a></li>
-            <li><a href="#">Kontakti</a></li>
+            <li><a href="#services">Pakalpojumi</a></li>
+            <li><a href="#about-us">Par mums</a></li>
+            <li><a href="#clients">Klienti</a></li>
+            <li><a href="#contacts">Kontakti</a></li>
           </ul>
         </div>
         <div class="languages">
-          <ul>
-            <div class="ru">
-            <li class="ru-left"><a href="#">RU</a></li>
-            <li><a href="#">EN</a></li>
-            </div>
-          </ul>
+          <a href="#">RU</a>
+          <a href="#">EN</a>
         </div>
-        <div class="clear">
-        </div>
-      </div>
-      <div class="clear">
       </div>
     </div>
     <div class="slider clear">
-      <img src="img/left-row.png" alt="left" class="left-row">
-      <img src="img/right-row.png" alt="right" class="right-row">
+      <button class="left-row"><img src="img/left-row.png" alt="left"></button>
+      <button class="right-row"><img src="img/right-row.png" alt="right"></button>
       <div class="slider-inner-container clear">
         <div class="banner-1">
           <p>Mērniecība</p>
@@ -47,17 +41,17 @@
              zemes un būvju reģistrācijai</p>
         </div>
       </div>
-      <div class="slider-spans-container">
-        <span class="slider-link float-left"></span>
-        <span class="slider-link float-left"></span>
-        <span class="slider-link float-left"></span>
+      <div class="slider-buttons-container">
+        <button class="slider-link float-left"></button>
+        <button class="slider-link float-left"></button>
+        <button class="slider-link float-left"></button>
       </div>
       <img class="slider-image" src="img/slider.jpg">
     </div>
     <div class="white-special-background">
       <div class="services clear">
         <div class="sub-container-header-block">
-          <h1>
+          <h1 id="services">
           Pakalpojumi
           </h1>
         </div>
@@ -117,7 +111,7 @@
       </div>
       <div class="prices clear">
         <div class="sub-container-header-block">
-          <h1>
+          <h1 id="prices">
           Pakalpojumu Izcenojumi
           </h1>
         </div>
@@ -129,7 +123,7 @@
                   <th class="table-row-title">
                     Pakalpojums
                   </th>
-                  <th class="uppercaseeur">
+                  <th class="`uppercase`-eur">
                     EUR
                   </th>
                 </tr>
@@ -170,9 +164,7 @@
                 </tr>
               </tbody>
             </table>
-            <div class="last-cell">
-            </div>
-            <p class="price-descr">objektos, kuros ir 2 (divas) vai mazāk apakšzemes komunikācijas, tāmei tiek piemērots koeficients 0.8</p>
+            <p class="price-descr" colspan="2">objektos, kuros ir 2 (divas) vai mazāk apakšzemes komunikācijas, tāmei tiek piemērots koeficients 0.8</p>
           </div>
           <div class="prices-block2 float-left">
             <p class="price-header">Par izpilddokumentācijas (tajā skaitā inženierkomunikāciju un ceļu izpildmērījumi) pieņemšanu, pārbaudi, ievadīšanu datu planšetēs, ievadīšanu datubāzē, reģistrēšanu un nosūtīšanu pašvaldībai</p>
@@ -182,7 +174,7 @@
                   <th class="table-row-title">
                     Pakalpojums
                   </th>
-                  <th class="uppercaseeur">
+                  <th class="uppercase-eur">
                     EUR
                   </th>
                 </tr>
@@ -213,29 +205,28 @@
                   <td class="table-row-first">
                     objekta platība līdz 25ha (ieskaitot), viens objekts
                   </td>
-                  <td class="price">
+                   <td class="price">
                     <strong>2,85</strong>
-                    <tr class="grey-bg">
+                   </td>
+                  </tr>
+                  <tr class="grey-bg">
                       <td class="table-row-first">
                         objekta platība virs 25ha, papildus par katru nākamo ha
                       </td>
                       <td class="price">
                         <strong>0,07</strong>
                       </td>
-                    </tr>
-                  </td>
+                  </tr>
                 </tr>
               </tbody>
             </table>
-            <div class="last-cell">
-            </div>
           </div>
       </div>
     </div>
     <div class="about-us clear">
       <div class="about-us-sub-container">
         <div class="sub-container-header-block">
-          <h1>
+          <h1 id="about-us">
             par mums
           </h1>
         </div>
@@ -246,7 +237,6 @@
           <div class="personal-info-container">
             <img src="_temp/edgarsudrisphoto.jpg">
             <h1> Edgars Udris</h1>
-            <div class="personal-info-devider"></div>
             <span class="tel">Tel: +371 29114401</span><br>
             <span class="email">edgars@ventspilsmernieks.com</span>
           </div>
@@ -289,12 +279,12 @@
      <div class="clients clear">
        <div class="clients-main-container">
         <div class="sub-container-header-block">
-          <h1>
+          <h1 id="clients">
           Klienti
           </h1>
         </div>
-        <div class="up-arrow">
-          <a href=""#up""><img src="img/up-arrow.png"></a></div>
+        <button class="up-arrow">
+          <a href=""#up""><img src="img/up-arrow.png"></a></button>
         <div class="first-line">
           <div class="lrzm logo-container float-left">
           </div>
@@ -338,7 +328,7 @@
     <div class="contacts brown-special-background clear">
       <div class="contacts-main-container">
          <div class="sub-container-header-block">
-           <h1>
+           <h1 id="contacts">
              Kontakti
            </h1>
          </div>
